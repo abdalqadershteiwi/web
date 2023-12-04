@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Buy Product</title>
+<link href="buy.css" type="text/css" rel="stylesheet" />
+
+</head>
+<body>
+    <h1>Buy Product</h1>
+    
+    <form action="validate-ex3.asp" method="post">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName">
+        <br>
+        
+        <label for="creditCardNumber">Credit Card Number:</label>
+        <input type="text" id="creditCardNumber" name="creditCardNumber">
+        <br>
+        
+        <label for="cardType">Card Type:</label>
+        <input type="radio" id="visa" name="cardType" value="Visa">
+        <label for="visa">Visa</label>
+        
+        <input type="radio" id="masterCard" name="cardType" value="MasterCard">
+        <label for="masterCard">MasterCard</label>
+        <br>
+        
+        <label for="section">Section:</label>
+        <select id="section" name="section">
+            <option value="MA">MA</option>
+            <option value="MB">MB</option>
+            <option value="MC">MC</option>
+            <option value="MD">MD</option>
+            <option value="ME">ME</option>
+            <option value="MF">MF</option>
+            <option value="MG">MG</option>
+            <option value="MH">MH</option>
+        </select>
+        <br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
